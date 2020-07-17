@@ -1,0 +1,64 @@
+    .para1 {
+        background-color: green;
+        position: absolute;
+        display: flex;
+        width: 50%;
+        height: 20%;
+    }
+    
+    .para2 {
+        display: none;
+    }
+    
+    .para3 {
+        display: none;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        .para2 {
+            background-color: orange;
+            position: absolute;
+            width: 50%;
+            height: 20%;
+            display: flex;
+        }
+        .para1 {
+            background-color: green;
+            display: flex;
+            position: absolute;
+            width: 50%;
+            height: 20%;
+            display: none;
+        }
+        .para3 {
+            display: none;
+            background-color: red;
+            position: absolute;
+            width: 50%;
+            height: 20%;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .para2 {
+            background-color: orange;
+            position: absolute;
+            width: 50%;
+            height: 20%;
+            display: none;
+        }
+        .para1 {
+            background-color: green;
+            position: absolute;
+            width: 50%;
+            height: 20%;
+            display: none;
+        }
+        .para3 {
+            background-color: red;
+            position: absolute;
+            width: 50%;
+            height: 20%;
+            display: flex;
+        }
+    }

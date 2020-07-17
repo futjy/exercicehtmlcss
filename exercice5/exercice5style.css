@@ -1,0 +1,42 @@
+                @font-face {
+                    font-familly: "buffied";
+                    url('buffied_.eot?') format('eot'),
+                    url('buffied_.otf') format('truetype'),
+                    url('buffied_.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+                
+                h1 {
+                    font-family: "buffied";
+                    font-size: 3em;
+                }
+                
+                @font-face {
+                    font-familly: "pricedown bl";
+                    url('pricedown bl.eot?') format('eot'),
+                    url('pricedown bl.otf') format('truetype'),
+                    url('pricedown bl.woff') format('woff');
+                    font-weight: normal;
+                    font-style: normal;
+                }
+                
+                .para1 {
+                    font-family: "pricedown bl";
+                    font-size: 3em;
+                }
+                
+                @font-face {
+                    font-familly: "Starjedi";
+                    url("Starjedi.eot?") format("eot"),
+                    url("Starjedi.otf") format("truetype"),
+                    url("Starjedi.woff") format("woff");
+                    font-weight: normal;
+                    font-style: normal;
+                    .para2
+                }
+                
+                .para2 {
+                    font-family: "Starjedi";
+                    font-size: 3em;
+                }

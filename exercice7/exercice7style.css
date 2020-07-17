@@ -1,0 +1,79 @@
+html,
+body,
+head,
+div {
+    margin: 0px;
+}
+
+div {
+    background-color: orange;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes superanimation {
+    0% {
+        background-color: orange;
+        left: 0px;
+        top: 0px;
+    }
+    10% {
+        background-color: red;
+        left: 0px;
+        top: 50px;
+        width: 150px;
+    }
+    20% {
+        background-color: red;
+        left: 0px;
+        top: 100px;
+        width: 150px;
+        height: 150px;
+    }
+    30% {
+        background-color: green;
+        left: 50px;
+        top: 100px;
+        width: 300px;
+    }
+    40% {
+        background-color: green;
+        left: 100px;
+        top: 100px;
+        width: 150px;
+        height: 100px;
+    }
+    50% {
+        background-color: indigo;
+        left: 100px;
+        top: 50px;
+    }
+    60% {
+        background-color: indigo;
+        left: 100px;
+        top: 0px;
+        width: 250px;
+        height: 200px;
+    }
+    70% {
+        background-color: blue;
+        left: 50px;
+        top: 0px;
+    }
+    100% {
+        background-color: orange;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    animation-name: superanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

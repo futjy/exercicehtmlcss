@@ -1,0 +1,55 @@
+nav,
+p {
+    margin: 0px;
+}
+
+.ensemble {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.un {
+    background-color: blue;
+    width: 100%;
+    height: 6%;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 280px;
+}
+
+.deux {
+    background-color: red;
+    height: 3%;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.trois {
+    background-color: orange;
+    width: 100%;
+    margin-right: 7px;
+}
+
+.quatre {
+    background-color: blue;
+    width: 250%;
+    margin-right: 7px;
+}
+
+.cinq {
+    background-color: green;
+    width: 100%;
+}
+
+.six {
+    background-color: red;
+    height: 3%;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.commun {
+    display: flex;
+    height: 15%;
+}
